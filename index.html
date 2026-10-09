@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>CURIKULUM VITAE (CV)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>CURIKULUM VITAE (CV)</h1>
+    <hr>
+    <table class="identitas">
+        <tr>
+            <!-- kolom foto -->
+            <td class="kolom-foto">
+            <img src="../img/ignasia.jpg" alt="foto profil" class="foto-profil">
+            </td>
+            <td class="kolom-identitas">
+                <h2>Identitas Diri</h2>
+            <table class ="data-identitas">
+                <tr>
+                    <td><strong>Nama Lengkap</strong></td>
+                    <td>:</td>
+                    <td>Ignasia Desanti Abi</td>
+                </tr>
+                    <tr>
+                        <td><strong>NIM</strong></td>
+                        <td>:</td>
+                        <td>51250067</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Program Studi</strong></td>
+                        <td>:</td>
+                        <td>Teknologi Informasi</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tempat /Tanggal Lahir</strong></td>
+                        <td>:</td>
+                        <td>Obe,22 September 2006</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Alamat</strong></td>
+                        <td>:</td>
+                        <td>Obe,Desa Fafinesu A,Timor Tengah Utara</td>
+                    </tr>
+                    <tr>
+                        <td><strong>No. HP</strong></td>
+                        <td>:</td>
+                        <td>081262189244</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Profil singkat</h2>
+    <p> saya adalah mahasiswa program studi <strong> Teknologi Informasi Universitas 
+    Timor</strong>.
+        saya memiliki ketertarikan terhadap perkembangan,khususnya dalam bidang <mark>Web Development</mark>.saya memiliki motivasi untuk terus belajar dan mengembangkan kemampuan dalam bidang teknologi informasi agar dapat memberikan manfaat bagi masyarakat.
+    </p>
+    <div class ="grid-informasi">
+    <div class="card">
+    <h2>Riwayat Pendidikan</h2>
+    <ol>
+        <li>SDK Maubesi 2</li>
+        <li>SMP Satap Negeri Nakol</li>
+        <li>SMA Negeri Insana Tengah</li>
+        <li>S1 di Universitas Timor</li>
+    </div>
+
+    <div class="card">
+    <h2>Hobi</h2>
+    <ul>
+        <li>Membaca</li>
+        <li>Olahraga</li>
+        <li>Mendengarkan Musik</li>
+        <li>Belajar Teknologi</li>
+    </ul>   
+    </div>
+ 
+    <div class="card">
+    <h2>Bidang Minat</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>UI/UX Design</li>
+        <li>Jaringan Komputer</li>
+        <li>Data Analisis</li>
+    </ul>
+    </div>
+    </div>
+    <p>Bidang yang paling saya minati adalah <strong><u>Web Development</u></strong>
+       karena saya ingin mampu membuat website yang menarik,informatik,dan bermanfaat.
+    </p>
+    <hr>
+    <h2>Mata Kuliah Semester Ini</h2>
+    <table class="tabel-matakuliah">
+        <tr>
+            <th>No.</th>
+            <th>Kode MK</th>
+            <th>Nama Mata Kuliah</th>
+            <th>SKS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>TI201</td>
+            <td>Pemrograman Web Dasar</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>TI202</td>
+            <td>Basis Data</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>TI203</td>
+            <td>Organisasi dan arsitektur komputer</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <h2>Target dan cita-cita</h2>
+    <p> 
+        Target saya selama menempuh pendidikan diprogram studi Teknologi Informasi adalah meningkatkan kemampuan dalam <em> pemrograman dan pengembangan teknologi</em>.
+        saya berharap dapat menjadi seorang <strong>web developer</strong> yang mampu menghasilkan a  plikasi web yang bermanfaat bagi masyarakat.
+    </p>
+    <p> kunjungi website resmi <a href="    https://unimor.ac.id" target="_blank">
+    Universitas Timor</a></p>
+   <hr>
+    <h2>Form Kontak</h2>
+    <p>Silahkan mengisi form berikut jika ingin menghubungi saya</p>
+    <form id="formkontak">
+        <div>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="masukkan nama lengkap anda">
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Masukkan email">
+        </div>
+        <div class="form-group">
+            <label for="telepon">No.Telepon</label>
+            <input type="text" id="telepon" name="telepon" placeholder="Masukkan no. telepon anda">
+        </div>
+        <!-- ==================pilihan minat============ -->
+        <div class="form-group">
+        <label for="minat">Bidang Minat</label>
+        <select name="minat" id="minat">
+            <option value="">Pilihan Bidang Minat </option>
+            <option value="web">Web Development</option>
+            <option value="uiux">UI/UX Design</option>
+            <option value="jaringan">Jaringan Komputer</option>
+            <option value="data">Data Analisis</option>
+        </select>
+    </div>
+    <!-- I========Text area ketik pesan======== -->
+    <div class="form-group">
+        <label for="pesan">pesan</label>
+        <textarea name="pesan" id="pesan" rows="5" placeholder="Tuliskan Pesan Anda"></textarea>
+    </div>
+    <!-- ==========Tombol============ -->
+        <button type="submit">Kirim Pesan ke WhatsApp</button>
+    <button type="reset">Reset</button>
+
+    </form>
+
+    </div>
+
+  
+
+  
+
+  <!-- gabung java sc -->
+  <script>
+
+ const form = document.getElementById("formkontak");
+
+form.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const nomorWhatsApp = "6281262189244";
+
+    const nama = document.getElementById("nama").value;
+    const email = document.getElementById("email").value;
+    const telepon = document.getElementById("telepon").value;
+    const minat = document.getElementById("minat").value;
+    const pesanUser = document.getElementById("pesan").value;
+
+    const isiPesan =
+`Halo, saya menghubungi melalui website CV.
+
+Nama Lengkap : ${nama}
+Email        : ${email}
+No. Telepon  : ${telepon}
+Bidang Minat : ${minat}
+
+Pesan:
+${pesanUser}`;
+
+    const pesanEncoded = encodeURIComponent(isiPesan);
+
+    const urlWhatsApp =
+        `https://web.whatsapp.com/send?phone=${nomorWhatsApp}&text=${pesanEncoded}`;
+
+    window.open(urlWhatsApp, "_blank");
+
+});
+</script>
+
+
+</body>
+</html>
